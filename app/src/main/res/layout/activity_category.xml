@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoryActivity"
+    android:background="@drawable/cream">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categories"
+            android:textSize="30sp"
+            android:textAllCaps="true"
+            android:padding="10dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/categories_11_background"
+            android:layout_margin="20dp"
+            android:id="@+id/tireShopRelative"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/tireShopText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="25dp"
+                android:text="Tire Shop"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="133dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="45dp"
+                android:src="@drawable/tires" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/categories_background_mechanic"
+            android:id="@+id/mechanicRelative"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/mechanicText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="25dp"
+                android:textColor="@color/white"
+                android:text="Mechanic"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="43dp"
+                android:src="@drawable/categories_mechanic_icon" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/categories_carwash_background"
+            android:layout_margin="20dp"
+            android:id="@+id/carWashRelative"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/carWashText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="25dp"
+                android:text="Car Wash"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="46dp"
+                android:src="@drawable/categories_carwash_icon" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/categories_22_background"
+            android:layout_margin="20dp"
+            android:id="@+id/towTruckRelative">
+
+            <TextView
+                android:id="@+id/towTruckText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="25dp"
+                android:text="Tow Truck"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="35dp"
+                android:src="@drawable/categories_towtruck_icon" />
+
+
+        </RelativeLayout>
+        
+    </LinearLayout>
+
+
+    </ScrollView>
+
